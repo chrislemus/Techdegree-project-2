@@ -22,9 +22,8 @@ h1,
 h2,
 h6,
 a {
-    color: rgb(41, 41, 41);
+    color: rgb(78, 78, 78);
     text-align: center;
-    text-transform: uppercase;
 }
 
 a {
@@ -57,6 +56,11 @@ img {
 .contact {
     text-align: center;
 }
+
+.nav-background {
+    background-color: white;
+    margin-top: -1.25em;
+}
 /* ---- Layout Containers ---- */
 
 .card {
@@ -69,6 +73,10 @@ img {
     background-color: white;
 }
 
+.portfolio h2 {
+    padding: 1em 0 3em 0;
+}
+
 .container {
     width: 95%;
     margin: 0 auto;
@@ -77,7 +85,7 @@ img {
 .main-header {
     text-align: center;
     margin: 0 auto;
-    padding: 1em 0;
+    padding: 4em 0;
 }
 
 .main-header p {
@@ -110,6 +118,12 @@ img {
     border-top: solid 3px rgb(231, 231, 231);
 }
 
+/* ---- Pseudo Elements ---- */
+
+a:hover {
+    color: yellowgreen;
+}
+
 
 /* =====================================
  Media Queries
@@ -138,10 +152,6 @@ img {
     .nav li {
         display: inline-block;
         margin-left: 2em;
-    }
-
-    .main-header {
-        padding: 4em 0;
     }
 
     .main-header p  {
@@ -202,13 +212,13 @@ img {
 
 @media (max-width: 768px) {
     .nav li {
-        background-color: white;
+        background-color: rgb(233, 233, 233);
         margin: .3em 1em;
         padding: .4em 0;
     }
 
     .main-nav {
-        padding-bottom: 3em;
+        padding: 1em 0 2em 0;
     }
 
     .contact {
@@ -220,10 +230,11 @@ img {
     }
 
     .to-top {
-        float: right;
-        display: inline-block;
         margin: 0 auto;
+        font-size: .95em;
+        float: right;
     }
+
 }
 
 
