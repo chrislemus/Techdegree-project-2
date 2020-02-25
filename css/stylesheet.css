@@ -112,6 +112,14 @@ img {
     margin-left: 1.5em ;
 }
 
+.skills {
+    background-color: rgb(255, 255, 255);
+}
+
+.skills h2 {
+    padding: 2em 0 1.5em 0;
+}
+
 /* ---- Page Elements ---- */
 
 .main-footer {
@@ -196,6 +204,10 @@ a:hover {
 
     .card {
         width: 33.33% ;
+    }
+
+    .s-card {
+        width: 50%;
     }
 
     .name {
