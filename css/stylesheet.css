@@ -115,6 +115,7 @@ img {
 
 .main-footer ul {
     float: right;
+    display: none;
 }
 
 .main-nav {
@@ -152,6 +153,7 @@ img {
 a:hover {
     color: yellowgreen;
 }
+
 
 
 /* =====================================
@@ -203,6 +205,10 @@ a:hover {
         display: none;
     }
 
+    .main-footer ul {
+        display: block;
+    }
+
 }
 
 /* ---- 1024px---- */
@@ -241,17 +247,6 @@ a:hover {
     }
 
 }
-
-/* ---- 768px max(mobile)---- */
-
-@media (max-width: 768px) {
-
-    .main-footer ul {
-        display: none;
-    }
-
-}
-
 
 
 /* ---- Float clearfix ---- */
